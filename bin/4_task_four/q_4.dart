@@ -30,7 +30,7 @@ class Rectangle extends Shape {
 class Square extends Shape {
   String color;
 
-  Square(double side, this.color) : super(side, side);
+  Square(double width, this.color) : super(width,width);
 
   @override
   double area() {
